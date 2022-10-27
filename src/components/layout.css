@@ -1,0 +1,55 @@
+html,
+body {
+  background-color: #fdfdfd;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+	padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+
+header {
+  display: flex;
+  font-size: 60%;
+  justify-content: center;
+  padding: 20px;
+}
+
+header a {
+  color: #888;
+}
+
+header a:not(:last-child) {
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.main .buttons span:not(:last-child) {
+  margin-right: 10px;
+}
+
+.section {
+  margin-top: 60px;
+}
+
+.section .demo {
+  display: block;
+  max-width: 100%;
+}
