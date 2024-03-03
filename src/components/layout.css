@@ -51,5 +51,6 @@ h1 {
 
 .section .demo {
   display: block;
+  margin: auto;
   max-width: 100%;
 }
